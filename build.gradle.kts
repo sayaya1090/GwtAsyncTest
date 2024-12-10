@@ -12,7 +12,10 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
 }
 gwt {
-    modules = listOf()
+    modules = listOf("dev.sayaya.AsyncTest")
+    devMode {
+        war = file("src/main/webapp")
+    }
 }
 tasks {
     test {
