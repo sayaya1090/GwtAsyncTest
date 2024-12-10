@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="worklist">
+	<inherits name="com.google.gwt.user.User"/>
+	<entry-point class="dev.sayaya.client.Application"/>
+	<source path="client"/>
+</module>
